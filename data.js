@@ -4,7 +4,7 @@
    Dates: YYYY-MM-DD. Keep the structure; just change the numbers/text.
    ===================================================================== */
 window.VISA_DATA = {
-  lastUpdated: '2026-10-03',
+  lastUpdated: '2026-10-20',
 
   uk: {
     ihsAdult: 1035,          // per year
@@ -33,9 +33,12 @@ window.VISA_DATA = {
     },
     visitor: { m6: 135, y2: 506, y5: 903, y10: 1128 },
     keyDates: [
-      { date: '2026-04-08', text: 'Home Office fees rose by about 6–7% across most visas.' },
-      { date: '2026-11-30', text: 'Student visa living-cost amounts rise to £1,570 (London) and £1,203 (outside London) a month.' },
-      { date: '2027-01-01', text: 'Graduate visa cut from 2 years to 18 months for bachelor’s and master’s graduates.' }
+      { date: '2026-04-08', text: 'Home Office fees rose by about 6–7% across most visas, and the UK ETA rose from £16 to £20.' },
+      { date: '2026-10-08', text: 'New Home Office fee table took effect, with no fee changes.' },
+      { date: '2026-11-30', text: 'Student visa living-cost amounts rise to £1,570 (London) and £1,203 (outside London) a month. Dependant amounts stay the same.' },
+      { date: '2026-12-31', text: 'Last day to apply for a 2-year Graduate visa.' },
+      { date: '2027-01-01', text: 'Graduate visa cut from 2 years to 18 months for bachelor’s and master’s graduates (PhD graduates still get 3 years).' },
+      { date: '2027-03-26', text: 'English level needed for settlement (ILR) on most routes, including Skilled Worker, rises from B1 to B2.' }
     ]
   },
 
@@ -56,7 +59,7 @@ window.VISA_DATA = {
     },
     visaBulletin: {
       month: 'October 2026',
-      note: 'Final Action Dates. USCIS lets applicants use the Dates for Filing chart this month.',
+      note: 'Final Action Dates (the November 2026 bulletin is not out yet). USCIS accepts the Dates for Filing chart for both family and employment cases this month.',
       rows: [
         { cat: 'F1 — Unmarried sons/daughters of citizens', row: '22 Jan 2020' },
         { cat: 'F2A — Spouses/children of green card holders', row: '22 Sep 2026' },
@@ -71,9 +74,9 @@ window.VISA_DATA = {
       ]
     },
     alerts: [
-      'Immigrant visa (green card) interviews have been paused at most US embassies since late August 2026. Student, work and visitor visas are not affected.',
-      'The $100,000 H-1B fee for new workers outside the US is still in force while the government appeals a court ruling against it.',
-      'The $250 visa integrity fee applies from 1 Oct 2025, but some embassies are not collecting it yet.'
+      'Immigrant visa (green card) interviews have resumed at US embassies after a short worldwide pause ended on 10 Sep 2026; the January 2026 pause for 75 countries was ended by a court on 21 Aug 2026. Travel-ban restrictions still apply to nationals of 39 countries.',
+      'The $100,000 H-1B fee is not being collected right now: courts in Massachusetts and California have blocked it, including its extension to September 2027. The government is appealing, so it could return.',
+      'The $250 visa integrity fee is law but is not yet generally charged at visa interviews, and the State Department has not added it to its fee list.'
     ]
   },
 
@@ -85,12 +88,13 @@ window.VISA_DATA = {
     settlementFunds: [15263, 19001, 23360, 28362, 32168, 36280, 40392], settlementExtra: 4112,
     pnpDefaultFee: 1750,     // BC PNP worker streams from 22 Jan 2026
     draws: [
-      { date: '2026-10-01', type: 'Federal Skilled Trades', itas: 3500, crs: 476 },
-      { date: '2026-09-29', type: 'Canadian Experience Class', itas: 2000, crs: 518 },
-      { date: '2026-09-28', type: 'Provincial Nominee Program', itas: 733, crs: 725 },
-      { date: '2026-09-14', type: 'Provincial Nominee Program', itas: 576, crs: 734 }
+      { date: '2026-10-16', type: 'French-language proficiency', itas: 5000, crs: 435 },
+      { date: '2026-10-15', type: 'Canadian Experience Class', itas: 2500, crs: 519 },
+      { date: '2026-10-13', type: 'Provincial Nominee Program', itas: 752, crs: 772 },
+      { date: '2026-10-01', type: 'Trades occupations', itas: 3500, crs: 476 }
     ],
     keyDates: [
+      { date: '2026-11-03', text: 'Express Entry scoring changes: extra points for high-wage Canadian work experience or job offers, and job offers no longer need an LMIA. Draws pause for up to about 2 weeks while scores are recalculated.' },
       { date: '2026-09-01', text: 'Study permit proof of funds rose to CA$23,448 for a single applicant.' },
       { date: '2026-01-22', text: 'BC PNP worker-stream fee rose to CA$1,750.' }
     ]
